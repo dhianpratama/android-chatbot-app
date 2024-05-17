@@ -4,8 +4,13 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     defaultConfig {
-        applicationId "com.example.ash"
+        applicationId "com.dhian.chatbotapp"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -33,3 +38,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 }
+
+task("testClasses")

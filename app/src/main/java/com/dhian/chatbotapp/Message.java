@@ -1,4 +1,4 @@
-package com.example.ash;
+package com.dhian.chatbotapp;
 
 public class Message {
     // Type 0 for sent, 1 for received
