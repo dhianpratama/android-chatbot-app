@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvLetsChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Chat"
+        android:textSize="60dp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@color/inputBackground"
+        android:textSize="14sp"
+        android:hint="Enter your name"/>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:layout_marginTop="20dp"
+        android:background="@color/button"/>
+
+
+
+</LinearLayout>
